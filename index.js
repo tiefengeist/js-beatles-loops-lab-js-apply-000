@@ -19,11 +19,11 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(n) {
   var apo = [];
-  var i = 0;
+  var i = n;
   do {
     apo.push('I love the Beatles!');
     i++;
   }
-  while(i<15-n);
+  while(i<15);
   return apo;
 }
